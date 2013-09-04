@@ -13,6 +13,7 @@ int main(int argc, char **argv)
   int i, n;
   long sd;
   double rn;
+  double ran();
 
   if(argc != 3) {
     printf("args: seed n\n");
